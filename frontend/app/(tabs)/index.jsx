@@ -49,7 +49,7 @@ export default function HomeTab() {
           style={styles.background}
           />{/* SafeAreaView is Teal, and we have a gradient here that has position absolute and is transparent.. */}
       <View style={globalStyles.mainTitleContainer}>
-        <Text style={globalStyles.mainTitle}>chas memory {/* font not good for full-caps */}</Text> 
+        <Text style={globalStyles.mainTitle}>maek memory{/* font not good for full-caps */}</Text> 
       </View>
       {welcomeMessage !== "" && <Text>{welcomeMessage}</Text>}
       <View style={styles.buttonContainer}>
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   loginAndCreateButton: {
-    backgroundColor: "gray",
+    backgroundColor: "white",
     paddingVertical: 8,
     paddingHorizontal: 16,
     width: 280,
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   buttonText: {
-    color: "white",
+    color: "teal",
     fontSize: 24,
    // fontWeight: "bold",
    fontFamily: "SourceCodePro-Bold"

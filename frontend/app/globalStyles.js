@@ -13,12 +13,14 @@ const globalStyles = StyleSheet.create({
     position: "absolute",
     top: 0,
     width: "100%",
+
     /* backgroundColor: "black",  */
     padding: 10,
     paddingTop: 40,
    /*  marginTop: 30, */ /* not needed with header shown */
     /* alignItems: "center",
     justifyContent: "center", */
+    //textAlign: "center",
   }
   
 });

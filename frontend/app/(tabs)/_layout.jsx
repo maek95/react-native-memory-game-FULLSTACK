@@ -10,7 +10,8 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{ // style options for all tabs
-        tabBarActiveTintColor: 'blue',
+        tabBarInactiveTintColor: 'teal', 
+        tabBarActiveTintColor: 'blue',       
         headerStyle: {
           backgroundColor: "teal",
           borderWidth: 0,
@@ -21,13 +22,16 @@ export default function TabLayout() {
         headerTitleStyle: {
           fontFamily: 'SourceCodePro-Medium', 
         },
+        tabBarLabelStyle: {
+          fontFamily: 'SourceCodePro-Regular', // 'Home', 'Play', 'Profile' in the tab menu
+        },
       }}
     >
       <Tabs.Screen
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
+          tabBarIcon: ({ color }) => <FontAwesome size={22} name="home" color={color} />,
         }}
       />
       <Tabs.Screen
@@ -35,14 +39,14 @@ export default function TabLayout() {
         options={{
           title: 'Play',
           headerShown: false, // play has its own Stack and thus its own headers.
-          tabBarIcon: ({ color }) => <FontAwesome size={28} name="play" color={color} />,
+          tabBarIcon: ({ color }) => <FontAwesome size={22} name="play" color={color} />,
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
           title: 'Profile',
-          tabBarIcon: ({ color }) => <FontAwesome size={28} name="user-circle" color={color} />,
+          tabBarIcon: ({ color }) => <FontAwesome size={22} name="user-circle" color={color} />,
         }}
       />
     </Tabs>

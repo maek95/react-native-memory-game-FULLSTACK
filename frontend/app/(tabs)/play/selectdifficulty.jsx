@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     justifyContent: "center", 
     flex: 1, /* flatlist does not inherit flex from parent or something */
   },
-  glowContainer: {
+  glowContainer: { // NOT USING, using <Shadow> instead, works for iOS and Android
     ...Platform.select({
       android: {
         borderRadius: 2,
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     
   },
   itemTitle: {
-    fontFamily: 'SourceCodePro-Bold',
+    fontFamily: 'SourceCodePro-Regular',
     fontSize: 24, 
     //fontWeight: "bold", // cant have this and custom font!!!!
     color: "black",
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     //fontFamily: Roboto_400Regular,
   },
   itemSequenceLength: {
-    fontFamily: 'SourceCodePro-Bold',
+    fontFamily: 'SourceCodePro-Regular',
     fontSize: 20, 
     //fontWeight: "bold", // cant have this and custom font!!!
     color: "black",
