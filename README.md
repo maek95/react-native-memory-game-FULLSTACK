@@ -38,8 +38,8 @@ To get started with the Memory Circle Game, follow these steps:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/memory-circle-game.git
-   cd memory-circle-game
+   git clone https://github.com/maek95/react-native-memory-game-FULLSTACK.git
+   cd react-native-memory-game-FULLSTACK
    ```
 
 2. **Navigate to the frontend directory**
