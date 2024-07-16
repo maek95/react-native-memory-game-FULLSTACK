@@ -44,7 +44,7 @@ To get started with the Memory Circle Game, follow these steps:
 
 2. **Navigate to the frontend directory**
    ```sh
-   cd frontend
+   cd .\frontend\
    ```
 
 3. **Install dependencies**
@@ -65,7 +65,7 @@ To get started with the Memory Circle Game, follow these steps:
 
 1. **Navigate to the backend directory**
    ```sh
-   cd ../backend
+   cd .\backend\
    ```
 
 2. **Install dependencies**
